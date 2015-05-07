@@ -1,6 +1,3 @@
-[![Dependency Status](https://www.versioneye.com/user/projects/551d7c9c971f7847ca000010/badge.svg?style=flat)](https://www.versioneye.com/user/projects/551d7c9c971f7847ca000010)
-[![Dependency Status](https://www.versioneye.com/user/projects/551d7ca6971f78433900000e/badge.svg?style=flat)](https://www.versioneye.com/user/projects/551d7ca6971f78433900000e)
-
 Meteor with Docker
 =====================================================
 This is a seed repo intended to bootstrap meteor project development. It uses docker for dev environment and contains a small sample application.
@@ -22,7 +19,8 @@ Installation
 Docker dev environent requires latest docker, see https://docs.docker.com/installation/
 
 #### Mac
-1. Install boot2docker and Docker Compose```
+1. Install boot2docker and Docker Compose
+```
 brew install boot2docker docker-compose
 ```
 2. Initialize and start up boot2docker
