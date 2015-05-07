@@ -1,0 +1,9 @@
+image: node
+script:
+    - apt-get update && apt-get install -y curl
+    - curl https://install.meteor.com/ | sh
+    - sudo start mongodb
+    - sleep 10
+    - meteor
+services:
+    - postgres
