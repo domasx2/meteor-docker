@@ -6,4 +6,4 @@ script:
     - sleep 10
     - meteor
 services:
-    - postgres
+    - mongodb
