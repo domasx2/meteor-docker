@@ -22,8 +22,7 @@ Installation
 Docker dev environent requires latest docker, see https://docs.docker.com/installation/
 
 #### Mac
-1. Install boot2docker and Docker Compose
-```
+1. Install boot2docker and Docker Compose```
 brew install boot2docker docker-compose
 ```
 2. Initialize and start up boot2docker
@@ -33,13 +32,11 @@ boot2docker init
 ```
 boot2docker start
 ```
-3. Configure your Docker host to point to your boot2docker image.
+3. Configure your Docker host to point to your boot2docker image. You’ll need to run this for every terminal session that invokes the docker or docker-compose command. 
 ```
 $(boot2docker shellinit)
 ```
-You’ll need to run this for every terminal session that invokes the docker or docker-compose command. 
-
-4. 
+4. Set up port forwarding(Temporary workaround)
 ```
 boot2docker ssh -Cfo ExitOnForwardFailure=yes -vnNTL 3000:localhost:3000
 ```
