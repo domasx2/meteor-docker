@@ -1,5 +1,0 @@
-{
-    "env": {
-        "MONGO_URL" : "mongodb://xxx:xxxx@troup.mongohq.com:10037/xxx"
-    }
-}
